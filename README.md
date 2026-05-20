@@ -3,7 +3,7 @@
 Portnd is a premium, secure, and blazingly fast P2P sharing application built on WebRTC. It allows you to beam files and messages directly between devices without ever touching a server. No accounts, no uploads, just pure direct sharing.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red.svg)
 ![Platform](https://img.shields.io/badge/platform-Web-orange.svg)
 
 ---
@@ -77,7 +77,9 @@ Portnd establishes a direct tunnel between two browsers using **WebRTC**:
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. You are free to use, modify, and distribute it for personal or commercial projects.
+Copyright (c) 2026 **jsk**. **All Rights Reserved.**
+
+This software is proprietary. Unauthorized copying, modification, distribution, or use of this software, in whole or in part, is strictly prohibited without prior written permission from the author.
 
 ---
 
