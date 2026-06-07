@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms of Service - Portnd</title>
+    <link rel="icon" type="image/png" href="./logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --bg-color: #020617;
+        --surface: rgba(15, 23, 42, 0.6);
+        --surface-elevated: rgba(30, 41, 59, 0.8);
+        --primary: #3b82f6;
+        --primary-glow: rgba(59, 130, 246, 0.5);
+        --primary-hover: #2563eb;
+        --accent: #8b5cf6;
+        --text-main: #f8fafc;
+        --text-muted: #94a3b8;
+        --border: rgba(255, 255, 255, 0.1);
+        --border-bright: rgba(255, 255, 255, 0.2);
+        --glass: blur(12px) saturate(180%);
+        --grad-1: rgba(59, 130, 246, 0.15);
+        --grad-2: rgba(139, 92, 246, 0.15);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Outfit', sans-serif;
+      }
+
+      body {
+        background-color: var(--bg-color);
+        background-image: 
+          radial-gradient(circle at 0% 0%, var(--grad-1) 0%, transparent 40%),
+          radial-gradient(circle at 100% 100%, var(--grad-2) 0%, transparent 40%);
+        color: var(--text-main);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 4rem auto;
+        padding: 0 1.5rem;
+        flex: 1;
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 3rem;
+      }
+
+      .logo-img {
+        height: 48px;
+        width: auto;
+        border-radius: 8px;
+      }
+
+      .logo-text {
+        font-size: 2rem;
+        font-weight: 700;
+        background: linear-gradient(135deg, #fff 0%, #94a3b8 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .card {
+        background: var(--surface);
+        backdrop-filter: var(--glass);
+        border: 1px solid var(--border);
+        border-radius: 1.5rem;
+        padding: 3rem;
+        box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+      }
+
+      h1 {
+        font-size: 2.25rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        color: var(--text-main);
+      }
+
+      .last-updated {
+        color: var(--text-muted);
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+        font-weight: 500;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        color: var(--primary);
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 0.5rem;
+      }
+
+      p {
+        color: var(--text-muted);
+        margin-bottom: 1.25rem;
+        font-size: 1.05rem;
+      }
+
+      ul {
+        list-style-type: none;
+        margin-bottom: 1.25rem;
+      }
+
+      li {
+        color: var(--text-muted);
+        position: relative;
+        padding-left: 1.5rem;
+        margin-bottom: 0.75rem;
+        font-size: 1.05rem;
+      }
+
+      li::before {
+        content: "•";
+        color: var(--primary);
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        background: var(--surface-elevated);
+        border: 1px solid var(--border);
+        color: var(--text-main);
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.75rem;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 0.95rem;
+        transition: all 0.3s ease;
+        margin-top: 2rem;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background: var(--primary);
+        border-color: var(--primary);
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
+      }
+
+      .footer {
+        text-align: center;
+        padding: 2rem;
+        border-top: 1px solid var(--border);
+        color: var(--text-muted);
+        font-size: 0.85rem;
+        margin-top: auto;
+      }
+
+      @media (max-width: 640px) {
+        .card {
+          padding: 1.5rem;
+          border-radius: 1rem;
+        }
+        .container {
+          margin: 2rem auto;
+        }
+        h1 {
+          font-size: 1.75rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="./logo.png" alt="Portnd Logo" class="logo-img" />
+        <span class="logo-text">portnd</span>
+      </div>
+
+      <div class="card">
+        <h1>Terms of Service</h1>
+        <div class="last-updated">Last Updated: May 24, 2026</div>
+
+        <p>Welcome to Portnd. By accessing or using our application, you agree to comply with and be bound by the following Terms of Service. Please read them carefully.</p>
+
+        <h2>1. Description of Service</h2>
+        <p>Portnd is a web-based, peer-to-peer file transfer and chat utility powered by WebRTC. The application acts as a conduit enabling direct browser-to-browser communication. Signaling servers are provided solely to facilitate initial peer handshakes and discovery; no content or file transmissions are retained or processed on our servers.</p>
+
+        <h2>2. User Responsibility & Conduct</h2>
+        <p>Because Portnd is a pure peer-to-peer tool, you are solely responsible for the content you choose to transmit (including files, texts, and links). You agree that you will not use this service to:</p>
+        <ul>
+          <li>Share, send, or receive copyrighted materials without authorization.</li>
+          <li>Transmit illegal, abusive, harmful, or obscene content.</li>
+          <li>Distribute malicious files, scripts, or software (viruses, malware, etc.).</li>
+          <li>Infringe upon the rights, privacy, or intellectual property of others.</li>
+        </ul>
+
+        <h2>3. No Content Monitoring</h2>
+        <p>Portnd operates under "safe harbor" guidelines as a passive intermediary. Since connections are encrypted and direct between devices, we do not monitor, filter, or control the data transferred. We do not have the technical capability to block or remove individual transfers or messages.</p>
+
+        <h2>4. Service Availability & Modifications</h2>
+        <p>Portnd is provided on an "as-is" and "as-available" basis. We reserve the right to modify, suspend, or discontinue the signaling service at any time without notice. We are not responsible for any file transfer failures, connection timeouts, or disruptions caused by network configurations, NAT limitations, or firewalls.</p>
+
+        <h2>5. Disclaimer of Warranties</h2>
+        <p>YOUR USE OF THE SERVICE IS AT YOUR SOLE RISK. TO THE MAXIMUM EXTENT PERMITTED BY LAW, PORTND DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE DO NOT GUARANTEE THAT THE SERVICE WILL BE UNINTERRUPTED, SECURE, OR ERROR-FREE.</p>
+
+        <h2>6. Limitation of Liability</h2>
+        <p>IN NO EVENT SHALL PORTND, ITS CREATORS, OR CONTRIBUTORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOSS OF PROFITS, DATA, OR USE, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE SERVICE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+
+        <h2>7. Governing Law</h2>
+        <p>These Terms of Service shall be governed by and construed in accordance with the laws of India, without regard to its conflict of law principles. Any legal actions arising from your use of the service shall be filed in the competent courts located in India.</p>
+
+        <a href="/" class="btn">← Back to Portnd</a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2026 Portnd. Developed by jsk. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

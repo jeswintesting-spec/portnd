@@ -2,6 +2,8 @@
 
 Portnd is a premium, secure, and blazingly fast P2P sharing application built on WebRTC. It allows you to beam files and messages directly between devices without ever touching a server. No accounts, no uploads, just pure direct sharing.
 
+**🌐 Live Demo:** [portnd.in](https://portnd.in)
+
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red.svg)
 ![Platform](https://img.shields.io/badge/platform-Web-orange.svg)

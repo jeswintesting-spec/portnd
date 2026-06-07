@@ -2022,6 +2022,11 @@ function App() {
 
       <footer className="footer">
         <p>&copy; {new Date().getFullYear()} <strong>Portnd</strong>. Developed by jsk. All rights reserved.</p>
+        <div className="footer-links">
+          <a href="/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+          <span className="divider-dot">·</span>
+          <a href="/terms.html" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+        </div>
       </footer>
 
       {showScanner && (
